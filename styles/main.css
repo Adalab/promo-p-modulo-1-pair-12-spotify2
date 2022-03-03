@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+:root {
+  --text-color: white;
+  --text-font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  font-family: var(--text-font-family);
+}
+
+.contenedor {
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-azul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  border-color: transparent;
+  background-color: rgb(25, 173, 94);
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+.contenedor2 {
+  padding: 20px;
+}
+.main-label {
+  margin-inline: 20px;
+  background-color: black;
+  height: 50px;
+}
+.hero {
+  position: relative;
+  background-color: #1d75de;
+  object-fit: contain;
+
+  background-size: 30%;
+  background-position: 100%, 0;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  height: 50vh;
+  padding: 20px;
+}
+
+.beneficios {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.titulo2 {
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+/* .titulo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.lista {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagen {
+  width: 25%;
+}
+
+.bloque-texto {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  font-size: 14px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: left;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  color: white;
+  background-color: black;
+}
+.contenedor-footer1 {
+  display: flex;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
+
+.contenedor-footer2 {
+  display: flex;
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
+.contenedor-bandera {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+.bandera {
+  width: 15px;
+  margin: 0 3px;
+}
+.contenedor-lista1 {
+  display: flex;
+  flex-direction: row;
+  width: 68%;
+  flex-wrap: wrap;
+  padding: 38px 10px 20px 10px;
+}
+
+.item-lista1 {
+  padding: 5px;
+}
+.contenedor-lista2 {
+  list-style: none;
+  padding: 18px 10px 25px 10px;
+}
+
+@media all and (min-width: 480px) {
+  .hero {
+    background-image: url("../images/premium_dancer.png");
+  }
+}
