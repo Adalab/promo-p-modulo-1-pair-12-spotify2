@@ -1,5 +1,14 @@
-.page__header {
+.contenedor {
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  background-color: black;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+.main-label {
+  margin-inline: 20px;
+  background-color: black;
+  height: 50px;
 }

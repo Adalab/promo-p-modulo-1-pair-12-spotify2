@@ -1,0 +1,34 @@
+.beneficios {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.titulo2 {
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+.lista {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+  display: flex;
+  flex-direction: row;
+}
+.imagen {
+  width: 25%;
+}
+.bloque-texto {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  font-size: 14px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: left;
+}
