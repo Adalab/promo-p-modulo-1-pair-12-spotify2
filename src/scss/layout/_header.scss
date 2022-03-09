@@ -7,8 +7,71 @@
   display: flex;
   justify-content: space-between;
 }
+
 .main-label {
   margin-inline: 20px;
   background-color: black;
-  height: 50px;
+  height: 40px;
+}
+
+.main-logo {
+  margin-inline: 20px;
+  background-color: black;
+  height: 40px;
+}
+
+.contenedor {
+  position: sticky;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .container-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    display: none;
+  }
+  .link-color {
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    display: none;
+  }
+}
+@media all and (min-width: 768px) {
+  .main-label {
+    margin-inline: 20px;
+    background-color: black;
+    height: 40px;
+    display: none;
+  }
+  .container-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .link-color {
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
 }
