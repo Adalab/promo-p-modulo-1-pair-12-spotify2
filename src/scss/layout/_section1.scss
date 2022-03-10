@@ -3,8 +3,8 @@
   background-color: #1d75de;
   object-fit: contain;
 
-  background-size: 30%;
-  background-position: 100%, 0;
+  /* background-size: 30%; */
+  background-position: 100% 0;
   background-repeat: no-repeat;
   color: var(--text-color);
   height: 50vh;
@@ -37,5 +37,28 @@
   color: white;
 }
 .small {
-  padding-top: 72px;
+  padding-top: 30px;
+  font-size: 10px;
+}
+
+@media all and (min-width: 480px) and(max-width: 1000px) {
+  .hero {
+    background-image: url("../images/premium_dancer.png");
+  }
+  .button {
+    width: 140px;
+    margin-top: 30px;
+  }
+  .h1 {
+    font-size: 55px;
+  }
+  .parrafo-1 {
+    font-size: 20px;
+    padding: 35px 0;
+    font-weight: bold;
+  }
+  .small {
+    font-size: 15px;
+    padding-top: 115px;
+  }
 }
